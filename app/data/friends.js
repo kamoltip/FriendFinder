@@ -1,6 +1,6 @@
-{
-  "name":"Mcdonald",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+var friends = [{
+  "name":"Albus Dumbledore",
+  "photo":"https://vignette3.wikia.nocookie.net/harrypotter/images/4/40/Albus_Dumbledore_%28HBP_promo%29_3.jpg/revision/latest/scale-to-width-down/350?cb=20150822232849",
   "scores":[
       5,
       1,
@@ -13,10 +13,10 @@
       4,
       1
     ]
-}
+},
 {
-  "name":"Jeff",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Lord Voldemort",
+  "photo":"https://pbs.twimg.com/profile_images/820737468379136001/D1BkQAaf.jpg",
   "scores":[
       5,
       1,
@@ -29,10 +29,10 @@
       4,
       1
     ]
-}
+},
 {
-  "name":"Michael",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Hermione Granger",
+  "photo":"https://upload.wikimedia.org/wikipedia/en/d/d3/Hermione_Granger_poster.jpg",
   "scores":[
       5,
       1,
@@ -45,10 +45,10 @@
       4,
       1
     ]
-}
+},
 {
-  "name":"Jason",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Ron Weasley",
+  "photo":"https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg",
   "scores":[
       5,
       1,
@@ -61,10 +61,10 @@
       4,
       1
     ]
-}
+},
 {
-  "name":"Alisabeth",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Severus Snape",
+  "photo":"https://vignette3.wikia.nocookie.net/p__/images/1/12/Snape-will-never-die-severus-snape-22970808-1600-2118.jpg/revision/latest/scale-to-width-down/300?cb=20170408002627&path-prefix=protagonist",
   "scores":[
       5,
       1,
@@ -77,4 +77,55 @@
       4,
       1
     ]
-}
+  },
+  {
+  "name":"Rubeus Hagrid",
+  "photo":"https://upload.wikimedia.org/wikipedia/en/1/10/RubeusHagrid.jpg",
+  "scores":[
+      5,
+      1,
+      4,
+      4,
+      5,
+      1,
+      2,
+      5,
+      4,
+      1
+    ]
+  },
+  {
+  "name":"Draco Malfoy",
+  "photo":"http://vignette2.wikia.nocookie.net/harrypotter/images/4/41/Draco-Malfoy_HBP.jpg/revision/latest?cb=20090118112824",
+  "scores":[
+      5,
+      1,
+      4,
+      4,
+      5,
+      1,
+      2,
+      5,
+      4,
+      1
+    ]
+  },
+  {
+  "name":"Harry Potter",
+  "photo":"http://media.comicbook.com/uploads1/2015/07/radcliffe-145276.jpg",
+  "scores":[
+      5,
+      1,
+      4,
+      4,
+      5,
+      1,
+      2,
+      5,
+      4,
+      1
+    ]
+  }
+];
+
+module.exports = friends;
