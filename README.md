@@ -39,7 +39,7 @@ App Folder Structure:
 ## Built With
 
 * Sublime Text - Text Editor
-* Materialize - Wireframe
+* Bootstrap - framework
 
 ## Authors
 
