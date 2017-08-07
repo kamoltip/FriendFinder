@@ -8,41 +8,38 @@ module.exports = function(app){
 				res.json(friendData);
 		});
 
-			
+		app.post('/api/friends', function(req, res){
 
-			
+	var twinFlameScores = req.body.scores;
+	var image = req.body.photo;
+    var scoresArray = [];
+    var friendCount = 0;
+    var bestMatch = 0;
 
-		// 	var matching = {
-		// 		name: '',
-		// 		image: '',
-		// 		matchDifference: 1000
-		// 	};
-		// 	var usrData = req.body;
-		// 	var usrName = usrData.name;
-		// 	var usrImage = usrData.Image;
-		// 	var usrScore = usrData.scores;
+    //runs through all current friends in list
+    for(var i=0; i<friendData.length; i++){
+      var scoresDiff = 0;
+      //run through scores to compare friends
+      for(var j=0; j<twinFlameScores.length; j++){
+        scoresDiff += (Math.abs(parseInt(friendData[i].scores[j]) - parseInt(twinFlameScores[j])));
+      }
 
-		// 	var scoreDifference = 0;
+      //push results into scoresArray
+      scoresArray.push(scoresDiff);
+    }
 
-		// 	for (var i = 0 ; i < [friends].length-1 ; i++) {
-		// 		console.log(friends[i].name);
-		// 		scoreDifference = 0;
+    //after all friends are compared, find best match
+    for(var i=0; i<scoresArray.length; i++){
+      if(scoresArray[i] <= scoresArray[bestMatch]){
+        bestMatch = i;
+      }
+    }
 
-		// 		for (var z = 0 ; z < 10; z++) {
-		// 			scoreDifference += Math.abs(parseInt(usrScores[z]) - parseInt(friends[i].scores[z]));
-				
-		// 		if (scoreDifference <= matching.friendDifference){
+    //return bestMatch data
+    var result = friendData[bestMatch];
+    res.json(result);
 
-		// 			// Reset the bestMatch to be the new friend. 
-		// 			matching.name = friends[i].name;
-		// 			matching.photo = friends[i].photo;
-		// 			matching.matchDifference = scoreDifference;
-		// 		}
-		// 	}
-		// }
-
-		// friends.push(usrData);
- 
-		// res.json(matching);
-	// });
+    //pushes new submission into the friendData array
+    friendData.push(req.body);
+  });
 };

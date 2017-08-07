@@ -2,15 +2,15 @@ var friends = [{
   "name":"Albus Dumbledore",
   "photo":"https://vignette3.wikia.nocookie.net/harrypotter/images/4/40/Albus_Dumbledore_%28HBP_promo%29_3.jpg/revision/latest/scale-to-width-down/350?cb=20150822232849",
   "scores":[
-      5,
       1,
-      4,
-      4,
-      5,
       1,
-      2,
-      5,
-      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
       1
     ]
 },
@@ -18,27 +18,27 @@ var friends = [{
   "name":"Lord Voldemort",
   "photo":"https://pbs.twimg.com/profile_images/820737468379136001/D1BkQAaf.jpg",
   "scores":[
+      3,
+      1,
+      3,
+      1,
       5,
       1,
-      4,
-      4,
+      3,
       5,
       1,
-      2,
-      5,
-      4,
-      1
+      5
     ]
 },
 {
   "name":"Hermione Granger",
   "photo":"https://upload.wikimedia.org/wikipedia/en/d/d3/Hermione_Granger_poster.jpg",
   "scores":[
-      5,
-      1,
       4,
       4,
-      5,
+      4,
+      4,
+      4,
       1,
       2,
       5,
@@ -50,31 +50,31 @@ var friends = [{
   "name":"Ron Weasley",
   "photo":"https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg",
   "scores":[
+      3,
+      3,
+      4,
+      4,
       5,
+      3,
       1,
-      4,
-      4,
       5,
-      1,
-      2,
-      5,
-      4,
-      1
+      3,
+      5
     ]
 },
 {
   "name":"Severus Snape",
   "photo":"https://vignette3.wikia.nocookie.net/p__/images/1/12/Snape-will-never-die-severus-snape-22970808-1600-2118.jpg/revision/latest/scale-to-width-down/300?cb=20170408002627&path-prefix=protagonist",
   "scores":[
-      5,
-      1,
-      4,
-      4,
-      5,
-      1,
       2,
-      5,
       4,
+      1,
+      1,
+      5,
+      1,
+      3,
+      5,
+      2,
       1
     ]
   },
@@ -83,15 +83,15 @@ var friends = [{
   "photo":"https://upload.wikimedia.org/wikipedia/en/1/10/RubeusHagrid.jpg",
   "scores":[
       5,
-      1,
-      4,
-      4,
       5,
-      1,
-      2,
       5,
-      4,
-      1
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
     ]
   },
   {
@@ -100,13 +100,13 @@ var friends = [{
   "scores":[
       5,
       1,
-      4,
-      4,
       5,
-      1,
+      5,
+      5,
       2,
-      5,
-      4,
+      1,
+      3,
+      2,
       1
     ]
   },

@@ -3,9 +3,32 @@
 <head>
 <title>servey</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+  	
+  <style>
+  	body{
+  		
+  		background: url('https://68.media.tumblr.com/398a668616024bc2fa0e0ce06580efe7/tumblr_opyq0b7RYb1vsjcxvo2_r1_540.gif') fixed;
+		background-size: cover;
+		padding: 0;
+		margin: 0;
+  	}
+  	h2, h3 ,h4{
+  		color: brown;
+  		text-shadow: 5px,5px black;
+  	}
+  	#resultsModal{
+		background-color: black;
+  	}
+  	.modal-content, .modal-header{
+  		background-color: black;
+  	}
+  </style>
 
 </head>
 <body>
@@ -24,7 +47,7 @@
 		<hr>
 
 		<h3><strong>Question 1</strong></h3>
-		<h4>You are always looking for an adventure.</h4>
+		<h4>You do believe in Magic.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q1">
 	 		<option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -35,7 +58,7 @@
       	</select>
 
 		<h3><strong>Question 2</strong></h3>
-		<h4>Generally speaking, you rely more on your instinct than your imagination.</h4>
+		<h4>You are trying to develop some application and need some magic to make it works.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q2">
 	 		<option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -47,7 +70,7 @@
 
 
 		<h3><strong>Question 3</strong></h3>
-		<h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+		<h4>You believe in supernatural.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q3">
 	 		<option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -59,7 +82,7 @@
 
 
 		<h3><strong>Question 4</strong></h3>
-		<h4>You are generally an outdoors person.</h4>
+		<h4>If you have a super power, you would wish to have a mind control ability.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q4">
 	 		<option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -71,7 +94,7 @@
 
 
 		<h3><strong>Question 5</strong></h3>
-		<h4>Generally you accept people are people and rarely upset you.</h4>
+		<h4>Generally speaking, you only be nice with ones who being nice toward you.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q5">
 	 		<option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -95,7 +118,7 @@
 
 
 		<h3><strong>Question 7</strong></h3>
-		<h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+		<h4>if you have magic you would turn someone into a stone for revenge.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q7">
 	 		<option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -117,7 +140,7 @@
       	</select>
 
 		<h3><strong>Question 9</strong></h3>
-		<h4>You care about the well being of others and whole heartedly listen when someone is upset.</h4>
+		<h4>Generally speaking, You love outdoor activities.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q9">
 	 		<option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -156,13 +179,13 @@
 
 	<!-- Modal -->
 	<div id="resultsModal" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
+	  <div class="modal-dialog modal-large">
 
 	    <!-- Modal content-->
 	    <div class="modal-content">
 	      <div class="modal-header">
 	        <button type="button" class="close" data-dismiss="modal">&times;</button>
-	        <h2 class="modal-title"><strong>Best Match</strong></h2>
+	        <h2 class="modal-title"><strong>Meet Your Twin Flame!</strong></h2>
 	      </div>
 	      <div class="modal-body">
 	        <h2 id="matchName"></h2>
@@ -228,27 +251,12 @@
 		}
 		else
 		{
-			alert("Please fill out all fields before submitting!");
+			alert("All Fields Required to be complete!");
 		}
     	
     	return false;
     });
   </script>
-
-
-<!-- Compatibility should be determined based on the following.
-Each user's results should be converted into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
-You will then compare the difference between the user's scores against other users' scores, question by question. You will then add up the differences to calculate the totalDifference.
-Example:
-User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
-User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
-Total Difference: 2 + 1 + 2 = 5
-Remember to use the absolute value of the differences (i.e 5-3 and 3-5 should both be 2).
-The person with the closest match should be the one with the "least" amount of difference.
-Once you've determined the closest match, display the result back to the user in the form of a modal pop-up.
-The result should display both t
- -->
-
 
 </body>
 </html>
