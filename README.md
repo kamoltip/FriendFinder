@@ -43,8 +43,6 @@ App Folder Structure:
 
 ## Authors
 
-* **Stefanie Ding** - *HTML/JS/Node.js* - [Stefanie Ding](https://github.com/StefanieDing)
+* **Kamoltip Cardenas** - *HTML/JS/Node.js* - [kamoltip](https://github.com/kamoltip)
 
 
-
-The result should display both the name and picture of the closest match.
