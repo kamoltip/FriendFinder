@@ -8,16 +8,27 @@ The application will take in results from users' surveys then compare their resu
 App Folder Structure:
 
  FriendFinder
+
  	|--app
+
  		|__ data
+
  			|__ friends.js
+
  		|__ public
+
  			|__ home.html
+
  			|__ survey.html
+
  		|__ routing
+
  			|__ appiRoutes.js
+
  			|__htmlRoutes.js
+
  	|--assets
+ 	
  		|__images
 
  	|-- node_modules
