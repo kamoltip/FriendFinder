@@ -40,15 +40,15 @@ App Folder Structure:
 
 ## Home page DEMO https://friendsmatcherapp.herokuapp.com
  
-![home](/assets/images/f-homepage.png width="600px")
+![home](/assets/images/f-homepage.png)
 
 ## /survey
  
-![survey](/assets/images/f-survey.png width="600px")
+![survey](/assets/images/f-survey.png)
 
 ## /api/friends
  
-![api](/assets/images/f-api.png width="600px")
+![api](/assets/images/f-api.png)
 
 ***
 
