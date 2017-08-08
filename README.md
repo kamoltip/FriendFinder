@@ -71,7 +71,8 @@ App Folder Structure:
 * Bootstrap - framework
 
 ## Authors
+***
 
-* **Kamoltip Cardenas** - *HTML/JS/Node.js* - [kamoltip Cardenas](https://github.com/kamoltip)
+##### Kamoltip Cardenas [GitHub](https://github.com/kamoltip)
 
 
