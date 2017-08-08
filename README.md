@@ -1,6 +1,6 @@
 # FriendFinder
 
-Objectives
+## Objectives
 ***
 
 
@@ -38,15 +38,15 @@ App Folder Structure:
 
 ***
 
-## Home page DEMO https://friendsmatcherapp.herokuapp.com
+### Home page DEMO https://friendsmatcherapp.herokuapp.com
  
 ![home](/assets/images/f-homepage.png)
 
-## /survey
+### /survey
  
 ![survey](/assets/images/f-survey.png)
 
-## /api/friends
+### /api/friends
  
 ![api](/assets/images/f-api.png)
 
@@ -58,7 +58,7 @@ App Folder Structure:
 - express NPM Package - https://www.npmjs.com/package/express
 - path NPM Package - https://www.npmjs.com/package/path
 
-### Prerequisites
+## Prerequisites
 
 ```
 - Node.js - Download the latest version of Node https://nodejs.org/en/
