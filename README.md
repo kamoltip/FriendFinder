@@ -40,15 +40,15 @@ App Folder Structure:
 
 ## Home page DEMO https://friendsmatcherapp.herokuapp.com
  
-![home](/assets/images/f-homepage.png)
+![home](/assets/images/f-homepage.png width="600px")
 
 ## /survey
  
-![survey](/assets/images/f-survey.png)
+![survey](/assets/images/f-survey.png width="600px")
 
 ## /api/friends
  
-![api](/assets/images/f-api.png)
+![api](/assets/images/f-api.png width="600px")
 
 ***
 
@@ -72,6 +72,6 @@ App Folder Structure:
 
 ## Authors
 
-* **Kamoltip Cardenas** - *HTML/JS/Node.js* - [kamoltip](https://github.com/kamoltip)
+* **Kamoltip Cardenas** - *HTML/JS/Node.js* - [kamoltip Cardenas](https://github.com/kamoltip)
 
 
