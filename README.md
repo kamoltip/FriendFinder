@@ -1,6 +1,7 @@
 # FriendFinder
 
 Objectives
+***
 
 
 The application will take in results from users' surveys then compare their results against all other users who have completed it. The application will then display the name and picture of the user with the best match overall.
@@ -28,25 +29,28 @@ App Folder Structure:
  			|__htmlRoutes.js
 
  	|--assets
- 	
+
  		|__images
 
  	|-- node_modules
  	|-- package.json
  	|-- server.js
 
+***
+
 ## Home page DEMO https://friendsmatcherapp.herokuapp.com
- <img 
-    src='../assets/images/f-homepage.png' width='600' alt='App home page'>
+ 
+    ![home](../assets/images/f-homepage.png)
 
 ## /survey
- <img 
-    src='../assets/images/f-survey.png' width='600' alt='App home page'>
+ 
+    ![home](../assets/images/f-survey.png)
 
 ## /api/friends
-  <img 
-    src='../assets/images/f-api.png' width='600' alt='App home page'>
+ 
+	![home](../assets/images/f-api.png)
 
+***
 
 ## Technologies used
 - Node.js
