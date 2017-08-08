@@ -70,9 +70,8 @@ App Folder Structure:
 * Sublime Text - Text Editor
 * Bootstrap - framework
 
-## Authors
 ***
-
+## Authors
 ##### Kamoltip Cardenas [GitHub](https://github.com/kamoltip)
 
 
